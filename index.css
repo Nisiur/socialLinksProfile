@@ -1,0 +1,93 @@
+/*
+### Primary
+
+- Green: hsl(75, 94%, 57%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+*/
+
+body{
+    text-align: center;
+    background: hsl(0, 0%, 8%);
+    color: whitesmoke;
+    font-family: "Inter";
+}
+
+section{
+    margin: 10vh auto;
+    background: hsl(0, 0%, 12%);
+}
+
+img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+h1{
+    line-height: 0.5;
+    font-weight: 600;
+}
+
+h2{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 2em;
+}
+
+h2, p{
+    font-size: 0.8rem;
+}
+
+p{
+    font-weight: 400;
+    margin-bottom: 3em;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+ul{
+    padding: 0 0 1em 0;
+    list-style: none;
+}
+li{
+    font-weight: 700;
+    max-width: 80%;
+    padding: 1em 0;
+    background: hsl(0, 0%, 20%);
+    border-radius: 0.5em;
+    margin: 0 auto 1em auto;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+@media (min-width: 400px){
+    section{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 399px){
+    section{
+        min-width: 375px;
+    }
+    .attribution{
+        min-width: 375px;
+    }
+}
